@@ -24,7 +24,7 @@ function openRequest($url, $username = '', $password = '') {
       CURLOPT_FORBID_REUSE => 1,
       CURLOPT_HTTPHEADER => array(
          'x-date:' . $xDate,
-         "x-authorization:$username:"
+         "x-authorization:" . $username . ":"
          . base64_encode(hash_hmac('sha1', md5($password)
             ."\n"
             . $xDate, md5($password), true))
