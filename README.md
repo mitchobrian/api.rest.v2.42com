@@ -1,7 +1,7 @@
-api.rest.v2.42com
+42com REST API v2
 =================
 
-api rest v2 42com
+Easy PHP sample.
 
 http://developer.42com.com/documentation/authentication/
 
